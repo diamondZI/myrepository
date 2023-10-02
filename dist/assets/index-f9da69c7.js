@@ -1,0 +1,1 @@
+import{_ as o,r as n,c as t,a as c,o as r}from"./index-6202bbc4.js";const s={};function a(_,i){const e=n("RouterView");return r(),t("div",null,[c(e)])}const d=o(s,[["render",a]]);export{d as default};

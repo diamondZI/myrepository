@@ -3,12 +3,11 @@
   <canvas  width="120" height="45"  class="border  " id="canvas"></canvas>
 </div>
 </template>
-<script setup >
-import {onMounted, ref} from 'vue'
-import CaptchaMini from 'captcha-mini'
+<script setup lang="ts">
+import {onMounted} from 'vue'
+import CaptchaMini from 'captcha-mini';
 import {useCaptchapStore} from '@/stores/Captchap';
 const R=useCaptchapStore()
-
 let captcha2 = new CaptchaMini({
         lineWidth: 1,   //线条宽度
         lineNum: 6,       //线条数量
@@ -23,9 +22,9 @@ let captcha2 = new CaptchaMini({
         length: 6    //验证码长度
  }); 
 onMounted(()=>{
-   captcha2.draw(document.querySelector('#canvas'), (r) => {
+   captcha2.draw(document.querySelector('#canvas'), (r:any) => {
         R.captchap=''
-       r.split('').filter((e)=>e<='Z'&&e>='A'||e<='z'&&e>='a').map((e)=>{
+       r.split('').filter((e:any)=>e<='Z'&&e>='A'||e<='z'&&e>='a').map((e:any)=>{
         R.captchap+=e
         })
 });
