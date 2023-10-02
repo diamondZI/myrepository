@@ -1,8 +1,8 @@
 # 开发技术栈
-Vue3 TS mock.js element-puls vite 
+Vue3 TS  element-puls vite 
 pinia axios  vue-router tailwind vueuse
 # 小工具
-echarts v-dollar 
+echarts v-dollar mock.js
 # 项目介绍
   一个用mock.js模拟登录数据的权限管理商家后台管理RBAC模板
   三个用户角色 /admin common employee/   用户名同名,密码随意,
