@@ -9,7 +9,7 @@ echarts v-dollar
   路由根据登录用户角色生成渲染
   简单颗粒权限使用v-if="role[]"
   首页使用echarts渲染SVG数据展示  
-  CRUD 在/order/order中体验
+  CRUD 在/order/order中体验,
   项目响应式布局,适配各类尺寸
 # 项目截图
   ![](/public/网页捕获_1-10-2023_203547_localhost.jpeg)
