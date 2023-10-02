@@ -1,0 +1,18 @@
+:root{
+   --color-- : red;
+}
+.Vnode{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background: rgb(102, 51, 153,0.1);
+  align-items: center;
+  padding: 20px;
+}

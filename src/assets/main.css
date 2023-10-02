@@ -1,0 +1,22 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#app {
+  min-width: 375px;
+  min-height: 667px;
+  min-width: 375px;
+  font-weight: normal;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@keyframes identifier {
+  0%{
+    transform: translateY(-10px);
+  }
+}
